@@ -36,3 +36,259 @@ ul,
 ol {
   list-style: none;
 }
+
+
+.content {
+display: grid;
+grid-template-columns: 711px 410px;
+gap: 30px;
+margin: 133px 30px;
+}
+
+.result {
+  margin-top: 78px;
+}
+
+.result__video-container {
+  position: relative;
+  min-inline-size: 711px;
+  margin-bottom: 16px;
+}
+
+.result__video {
+inline-size: 100%;
+min-block-size: 386px;
+}
+
+.search-form {
+display: flex;
+justify-content: space-between;
+}
+
+.search-form__fieldset {
+border: none;
+}
+
+.search-form__label {
+  display: inline-block;
+  width: fit-content;
+}
+
+.search-form__fieldset-title {
+  color: #FFF;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+
+.search-form__textfield {
+background-color: transparent;
+border: none;
+min-inline-size: 225px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Fira Sans Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top: 1px solid #FFF;
+border-bottom: 1px solid #FFF;
+appearance: none;
+}
+
+.search-form__label:hover {
+text-decoration: underline 1px solid #FFF;
+}
+
+.search-form__label:has(:focus-visible) {
+outline: 1px solid #FFF;
+outline-offset: 1px;
+}
+
+.search-form__textfield:focus {
+  outline: none;
+  }
+
+.search-form__fieldset-title:has(.search-form__textfield) {
+min-inline-size: 225px;
+}
+
+.search-form__fieldset:has(.search-form__checkbox-list) {
+min-inline-size: 212px;
+}
+
+.search-form__checkbox-list {
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+font-family: Fira Sans Condensed;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.search-form__pseudo-checkbox {
+  display: inline-block;
+  background-color: transparent;
+  outline: 1px solid #FFF;
+  outline-offset: 2px;
+  min-inline-size: 15px;
+  min-block-size: 15px;
+  margin: 3px 5px 0 4px;
+  cursor: pointer;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
+  background-color: #fff;
+  display: block;
+  min-inline-size: 15px;
+  min-block-size: 15px; 
+  content: "";
+}
+
+.search-form__submit-button {
+min-inline-size: 194px;
+max-block-size: 34px;
+margin-top: 20px;
+}
+
+.content__details {
+inline-size: 100%;
+block-size: 100%;
+}
+
+.title {
+margin-bottom: 20px;
+color: #FFF;
+font-family: Oswald;
+font-size: 75px;
+font-style: normal;
+font-weight: 700;
+line-height: 94%;
+text-transform: uppercase;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__list {
+  position: relative;
+max-block-size: 320px;
+overflow: auto;
+}
+
+.content__list-item {
+margin-bottom: 30px;
+}
+
+.content__list-item:active {
+  background-color:#545050;
+  }
+
+.content__list-item:nth-of-type(5) {
+margin-bottom: 0;
+}
+
+.content__card-link {
+  display: block;
+text-decoration: none;
+color: #FFF;
+margin: 2px;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  outline: 1px solid #FFF;
+  outline-offset: 1px;
+}
+
+.content__card-link_current {
+  background-color:#545050;
+}
+
+.content__video-card {
+display: flex;
+justify-content: space-between;
+}
+
+.content__video-card-title {
+  font-family: Oswald;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 30px */
+  text-transform: uppercase;
+}
+
+.content__video-card-description {
+  margin-top: 6px;
+  font-family: Fira Sans Condensed;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16.2px;
+}
+
+.content__video-card-description-container:hover {
+  text-decoration: underline 1px solid #FFF;
+}
+
+.content__video-card-thumbnail {
+max-inline-size: 194px;
+max-block-size: 103px;
+}
+
+.more-button {
+margin-top: 30px;
+inline-size: 100%;
+min-block-size: 34px;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+} 
+
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  color: #FFF;
+text-align: center;
+font-family: Fira Sans Condensed;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border: 1px solid #FFF;
+}
+
+.button:hover {
+  text-decoration: underline 1px solid #FFF;
+}
+
+.button:active {
+background-color: #545050;
+}
+
+.button:focus {
+outline: none;
+}
+
+.button:focus-visible {
+outline: 1px solid #FFF;
+outline-offset: 1px;
+}
