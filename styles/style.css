@@ -212,6 +212,8 @@ ol {
   text-decoration: none;
   color: #fff;
   margin: 2px;
+  inline-size: 394px;
+  block-size: 107px;
 }
 
 .content__card-link:focus {
@@ -255,8 +257,8 @@ ol {
 }
 
 .content__video-card-thumbnail {
-  max-inline-size: 194px;
-  max-block-size: 103px;
+  inline-size: 194px;
+  block-size: 103px;
 }
 
 .more-button {
