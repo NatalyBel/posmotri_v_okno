@@ -84,7 +84,7 @@ ol {
 
 .search-form__fieldset-title {
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -97,7 +97,7 @@ ol {
   border: none;
   min-inline-size: 225px;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -111,9 +111,9 @@ ol {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.search-form__label:hover {
+/* .search-form__label:hover {
   text-decoration: underline solid #fff;
-}
+} */
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
@@ -136,7 +136,7 @@ ol {
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -158,8 +158,8 @@ ol {
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
   background-color: #fff;
   display: block;
-  min-inline-size: 15px;
-  min-block-size: 15px;
+  min-inline-size: 13px;
+  min-block-size: 13px;
   content: "";
 }
 
@@ -177,7 +177,7 @@ ol {
 .title {
   margin-bottom: 26px;
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -235,7 +235,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 700;
@@ -245,7 +245,7 @@ ol {
 
 .content__video-card-description {
   margin-top: 6px;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -282,7 +282,7 @@ ol {
   cursor: pointer;
   color: #fff;
   text-align: center;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
